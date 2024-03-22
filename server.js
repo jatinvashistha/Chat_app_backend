@@ -11,7 +11,7 @@ const server = app.listen(process.env.PORT, () => {
 const io = new Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chat-app-jatin-vashisth.netlify.app",
+    origin: "https://v8d685-3000.csb.app",
   },
 });
 
