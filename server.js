@@ -11,7 +11,7 @@ const server = app.listen(process.env.PORT, () => {
 const io = new Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://87g4j8-3000.csb.app",
+    origin: "https://chat-app-git-main-jatinvashisthas-projects.vercel.app",
   },
 });
 
